@@ -11,7 +11,7 @@ In this project I mastered:
 All components are in the `BaseApp` folder (excepting backup-file)
 
 It is needed to run the application locally:
-*  Clone branch `main` with `git clone https://github.com/RemeshevskiyValeriy/Qt-Vinyl-Store.git` or fork it and then clone it from your forked repository
+*  Clone branch `master` with `git clone https://github.com/RemeshevskiyValeriy/Qt-Vinyl-Store.git` or fork it and then clone it from your forked repository
 *  Open the file `BaseAppp.pro` using the Qt Creator. You can read how to build a Qt project in Visual Studio [here](https://doc.qt.io/qtvstools-2/qtvstools-importing-and-exporting-projects.html)
 * You must install the latest version of the [PostgreSQL](https://www.postgresql.org/download/) if it has not been installed before. The installation configuration includes the pgAdmin 4 software product for database administration and development, which also needs to be installed
 * In pgAdmin 4, you need to open a local server (remember your username and password). To restore the original database, right-click on the raw database on the local server to open the context menu and select `Restore...`, and then specify the backup-file `Database_backup.sql`
